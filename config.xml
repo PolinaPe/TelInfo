@@ -28,7 +28,7 @@ xmlns:gap="http://phonegap.com/ns/1.0">
 	<allow-intent href="http://*/*" />
 <allow-intent href="sms:*" />
 
-<plugin name="cordova-plugin-sim2" spec="1.0.16" />
+<plugin name="cordova-plugin-whitelist" spec="1.1.0" />
 <plugin name="cordova-plugin-sms" spec="1.0.5" />
 <plugin spec="https://github.com/pbakondy/cordova-plugin-sim" source="git" />
 
