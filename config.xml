@@ -23,15 +23,14 @@ xmlns:gap="http://phonegap.com/ns/1.0">
  <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
 
-	
 	<content src="index.html" />
 	<access origin="*" />
 	<allow-intent href="http://*/*" />
-<allow-intent href="https://*/*" />
-<allow-intent href="geo:*" />
-<gap:plugin name="cordova-plugin-geolocation" source="npm" />
+<allow-intent href="sms:*" />
+
+<plugin name="cordova-plugin-sim2" spec="1.0.16" />
+<plugin name="cordova-plugin-sms" spec="1.0.5" />
 <plugin name="cordova-plugin-whitelist" spec="1.1.0" />
-<gap:plugin name="cordova-plugin-sim" source="npm" />
 
 
 
